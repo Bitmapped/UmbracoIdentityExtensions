@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata minClientVersion="2.8">
     <id>UmbracoCms.IdentityExtensions.AzureActiveDirectory</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>Umbraco Extensibility with ASP.Net Identity for Azure ActiveDirectory OAuth</title>
     <authors>Umbraco HQ</authors>
     <owners>Umbraco HQ</owners>
@@ -20,7 +20,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="App_Start\UmbracoADAuthExtensions.cs.pp" target="content\App_Start" />
-    <file src="ActiveDirectory.Readme.txt" target="Readme.txt" />
+    <file src="App_Start\UmbracoAzureADAuthExtensions.cs.pp" target="content\App_Start" />
+    <file src="AzureActiveDirectory.Readme.txt" target="Readme.txt" />
   </files>
 </package>

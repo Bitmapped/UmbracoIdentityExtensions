@@ -13,7 +13,7 @@ using Microsoft.Owin.Security.OpenIdConnect;
 
 namespace $rootnamespace$
 {
-    public static class UmbracoADAuthExtensions
+    public static class UmbracoAzureADAuthExtensions
     {
 
         ///  <summary>

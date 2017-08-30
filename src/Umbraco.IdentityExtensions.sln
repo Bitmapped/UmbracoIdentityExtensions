@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E90962AB-AB3C-4882-946F-FCD524333448}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App_Start", "App_Start", "{EE0B2A47-0042-474F-A01C-90497D75FD6D}"
 	ProjectSection(SolutionItems) = preProject
-		App_Start\UmbracoADAuthExtensions.cs = App_Start\UmbracoADAuthExtensions.cs
+		App_Start\UmbracoAzureADAuthExtensions.cs = App_Start\UmbracoAzureADAuthExtensions.cs
 		App_Start\UmbracoFacebookAuthExtensions.cs = App_Start\UmbracoFacebookAuthExtensions.cs
 		App_Start\UmbracoGoogleAuthExtensions.cs = App_Start\UmbracoGoogleAuthExtensions.cs
 		App_Start\UmbracoMicrosoftAuthExtensions.cs = App_Start\UmbracoMicrosoftAuthExtensions.cs
@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App_Start", "App_Start", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{596116B3-3B38-481C-9442-643AF4CA1071}"
 	ProjectSection(SolutionItems) = preProject
-		..\build\ActiveDirectory.Readme.txt = ..\build\ActiveDirectory.Readme.txt
+		..\build\AzureActiveDirectory.Readme.txt = ..\build\AzureActiveDirectory.Readme.txt
 		..\build\Build-Release.ps1 = ..\build\Build-Release.ps1
 		..\build\Build.bat = ..\build\Build.bat
 		..\build\Facebook.Readme.txt = ..\build\Facebook.Readme.txt

@@ -11,7 +11,7 @@ Umbraco extensibility code has been installed for integrating Azure Active Direc
 OAuth with ASP.Net Identity for Umbraco back office users
 			
 DOCUMENTATION, NOTES AND CODE have been installed to this file: 
-"~/App_Start/UmbracoADAuthExtensions.cs"
+"~/App_Start/UmbracoAzureADAuthExtensions.cs"
 Please read for information on integrating Active Directory OAuth providers 
 for ASP.Net Identity for the Umbraco back office.
 
